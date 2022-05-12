@@ -3,3 +3,6 @@
 ################################################################################
 
 /src/DemonstrationSolution/DemonstrationLibrary/bin/Release
+/src/DemonstrationSolution/DemonstrationLibrary/obj
+/src/DemonstrationSolution/.vs/DemonstrationSolution/v17
+/.vs/demonstration/v17/.suo

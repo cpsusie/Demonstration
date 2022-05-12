@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <Nullable>enable</Nullable>
+    <WarningsAsErrors>nullable</WarningsAsErrors>
+    <LangVersion>10</LangVersion>
+    <RootNamespace>Demo</RootNamespace>
+    <AssemblyName>DemonstrationLibrary</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequiresLicenseAcceptance>true</PackageRequiresLicenseAcceptance>
+    <Deterministic>true</Deterministic>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <Company>Shimadzu Scientific Instruments, Inc.</Company>
+    <Version>0.0.0.1-alpha</Version>
+    <FileVersion>0.0.0.1</FileVersion>
+    <AssemblyVersion>0.0.0.1</AssemblyVersion>
+    <RepositoryType>git</RepositoryType>
+    <Copyright>Copyright © 2022 Shimadzu Scientific Instruments, Inc.</Copyright>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <RepositoryUrl>https://github.com/cpsusie/High-Precision-Time-Stamps.git</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HighPrecisionTimeStamps" Version="1.0.0.6" />
+    <PackageReference Include="System.Collections.Immutable" Version="6.0.0" />
+    <PackageReference Include="System.Memory" Version="4.5.4" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>
