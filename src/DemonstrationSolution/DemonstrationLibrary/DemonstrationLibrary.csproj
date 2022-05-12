@@ -15,7 +15,13 @@
     <Version>0.0.0.1-alpha</Version>
     <FileVersion>0.0.0.1</FileVersion>
     <AssemblyVersion>0.0.0.1</AssemblyVersion>
+    <Description>This library is a demonstration of project organization for libraries stored in git repos and published via nuget.</Description>
+    <PackageReleaseNotes>
+      #### Version 0.0.0.1-alpha
+      This is the initial release of the project.
+    </PackageReleaseNotes>
     <RepositoryType>git</RepositoryType>
+    <PackageTags>Useless, Unhelpful</PackageTags>
     <Copyright>Copyright © 2022 Shimadzu Scientific Instruments, Inc.</Copyright>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
@@ -29,6 +35,7 @@
     <PackageReference Include="System.Collections.Immutable" Version="6.0.0" />
     <PackageReference Include="System.Memory" Version="4.5.4" />
     <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>
